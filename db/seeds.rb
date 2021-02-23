@@ -4,12 +4,24 @@
 # Examples:
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
- User.create(
+
+###### USER DATA ######
+
+User.create(
     username: 'hgranger', 
     password: '123',
     name: 'Hermione',
-    image: 'https://static.wikia.nocookie.net/characters/images/a/a5/Latest_%2810%29.jpg/revision/latest?cb=20141230074301'
+    image: 'https://i.pinimg.com/originals/22/4c/6a/224c6a1862bae85dace8730251c66078.jpg'
 )
+
+# User.create(
+#     username: 'rweasley', 
+#     password: '123',
+#     name: 'Ron',
+#     image: 'https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg'
+# )
+
+###### REVIEW DATA ######
 
 Review.create(
     content: 'The ambiance was romantic and the sushi was delicious. It was very warm and cozy',
@@ -19,12 +31,38 @@ Review.create(
     restaurant_id: 1
 )
 
+# Review.create(
+#     content: 'This restaurant made me feel safe while dining out. Cool patio, good service',
+#     rating: 4,
+#     likes: 1,
+#     user_id: 2,
+#     restaurant_id: 5
+# )
+
+####### BOOKMARK DATA ######
+
 Bookmark.create(
     user_id: 1,
     restaurant_id: 1
 )
 
-# restaurant seed #
+Bookmark.create(
+    user_id: 1,
+    restaurant_id: 3
+)
+
+# Bookmark.create(
+#     user_id: 2,
+#     restaurant_id: 2
+# )
+
+# Bookmark.create(
+#     user_id: 2,
+#     restaurant_id: 3
+# )
+
+###### RESTAURANT SEED ######
+
 Restaurant.create(
     name: 'Sushi Lab', 
     cuisine: 'Japanese, Traditional Sushi Bar', 
@@ -481,3 +519,5 @@ Restaurant.create(
 #     od_img2:
 #     fd_img:
 # )
+
+puts "data seeded!"
