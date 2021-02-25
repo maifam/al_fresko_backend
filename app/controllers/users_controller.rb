@@ -8,8 +8,12 @@ class UsersController < ApplicationController
         render json: user
     end
 
+    def index
+        @users = User.all 
+        render json: @users
+    end 
+
     def show
-        
         render json: @current_user
     end
 
@@ -24,9 +28,10 @@ class UsersController < ApplicationController
         render json: user
     end
 
-    # def signup
-    #     user = User.create(user_params)
-    # end
+    def signup
+        user = User.last
+        render json: user
+    end
 
     private
 

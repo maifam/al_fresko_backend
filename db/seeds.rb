@@ -14,60 +14,13 @@ User.create(
     image: 'https://i.pinimg.com/originals/22/4c/6a/224c6a1862bae85dace8730251c66078.jpg'
 )
 
-# User.create(
-#     username: 'rweasley', 
-#     password: '123',
-#     name: 'Ron',
-#     image: 'https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg'
-# )
-
-###### REVIEW DATA ######
-
-Review.create(
-    content: 'The ambiance was romantic and the sushi was delicious. It was very warm and cozy',
-    rating: 5,
-    likes: 1,
-    user_id: 1,
-    restaurant_id: 1
+User.create(
+    username: 'rweasley', 
+    password: '123',
+    name: 'Ron',
+    image: 'https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg'
 )
 
-Review.create(
-    content: 'Great place for outdoor dining',
-    rating: 4,
-    likes: 1,
-    user_id: 1,
-    restaurant_id: 3
-)
-
-# Review.create(
-#     content: 'This restaurant made me feel safe while dining out. Cool patio, good service',
-#     rating: 4,
-#     likes: 1,
-#     user_id: 2,
-#     restaurant_id: 5
-# )
-
-####### BOOKMARK DATA ######
-
-Bookmark.create(
-    user_id: 1,
-    restaurant_id: 1
-)
-
-Bookmark.create(
-    user_id: 1,
-    restaurant_id: 3
-)
-
-# Bookmark.create(
-#     user_id: 2,
-#     restaurant_id: 2
-# )
-
-# Bookmark.create(
-#     user_id: 2,
-#     restaurant_id: 3
-# )
 
 ###### RESTAURANT SEED ######
 
@@ -232,82 +185,82 @@ Restaurant.create(
 )
 #----- 10
 
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
+Restaurant.create(
+    name: 'TacoVision',
+    cuisine: 'Mexican, Tapas/Small Plates',
+    address: '244 E 53rd St New York, NY 10004',
+    website: 'tacovisionnyc.com',
+    phone: '646- 921-1990',
+    menu: 'https://tacovisionnyc.com/wp-content/uploads/2021/02/Taco-Vision-Menu.pdf',
+    hours: 'Tue-Fri 5PM-10PM, Sat-Sun 12PM-10PM',
+    setup: 'Heated. Tent. On Sidewalk & Patio',
+    covid: 'Contactless payments, Temperature checks, Social distancing enforced, Limited capacity',
+    money: '2',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/u9iiMHgOZYsG31t5LGQ-gg/o.jpg',
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/gsznoTuMP5Zh_jqALpEjIw/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/vLG3ykOOz2M6qWhcQk73RQ/o.jpg'
+)
+Restaurant.create(
+    name: 'Kyma',
+    cuisine: 'Greek',
+    address: '15 W 18th St New York, NY 10011',
+    website: 'kymarestaurants.com',
+    phone: '212-268-5555',
+    menu: 'https://kymarestaurants.com/wp-content/uploads/2020/11/1-Kyma-Aug-Sit-Down-Menu.pdf',
+    hours: 'Tue-Sun 4:30PM-10PM',
+    setup: 'Heated. Patio',
+    covid: 'Contactless payment, masks required',
+    money: '3',
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/Z9bJjPTLd2q4zOPyn2Y0cQ/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/4M8roEafV0c_5YBBdNTk6A/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/6k00UU0pf9l_1YRGOJxN4A/o.jpg',
+)
+Restaurant.create(
+    name: 'Sushi Nonaka',
+    cuisine: 'Japanese',
+    address: '410 Amsterdam Ave New York, NY 10024',
+    website: 'sushinonaka.com',
+    phone: '646-454-0226',
+    menu: 'https://www.sushinonaka.com/outdoor-garden-dining-sushi-menu',
+    hours: 'Mon-Sun 5PM-9PM',
+    setup: 'Heat lamps, In the back garden area',
+    covid: 'Tables 6ft apart',
+    money:  '4',
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/UGRfK04xxPMxp9tFNxdseg/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/q9KjCOfNf_EqeE8Rz5867A/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/lmQHuRgo2qvXgKjI3g8NrQ/o.jpg',
+)
+Restaurant.create(
+    name:  'The Liberty NYC',
+    cuisine: 'American',
+    address: 't29 W 35th St New York, NY 10001',
+    website: 'thelibertynyc.com',
+    phone: '212-967-4000',
+    menu: 'https://secureservercdn.net/104.238.69.231/q2z.e03.myftpupload.com/wp-content/uploads/2021/01/Jan-Menu-2021-1.pdf',
+    hours: 'Mon-Sun 12PM-11PM',
+    setup: 'Heated, Outdoor cabin',
+    covid:  'Temperature checks, contactless payment, disposable menu, tables not 6ft apart',
+    money:  '2',
+    od_img1: 'https://images.otstatic.com/prod1/33884869/3/large.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/nBFWzc7onV0GHHHxpIRlng/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/jSFdSe4HI5CXT0PeCwqADw/o.jpg',
+)
 
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
+Restaurant.create(
+    name: 'Hortus NYC',
+    cuisine: 'Korean, Asian Fusion',
+    address: '271 5th Ave New York, NY 10016',
+    website: 'hortusnyc.com',
+    phone: '646-858-3784',
+    menu: 'https://www.hortusnyc.com/tem_m/',
+    hours: 'Tue-Sun 11:30AM-3:30PM, 5:30PM-11PM',
+    setup: 'Heated, Patio',
+    covid: 'Temperature checks, limited capacity',
+    money:  '3',
+    od_img1: 'https://images.otstatic.com/prod1/32532484/3/large.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/H8Yyvjv7xy2eqtVUgji17A/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/9R-mNkIBZ7eKv-RUB9Likg/o.jpg',
+)
 
 #----- 15 
 
@@ -541,5 +494,70 @@ Restaurant.create(
 #     od_img2:
 #     fd_img:
 # )
+
+###### REVIEW DATA ######
+
+Review.create(
+    content: 'This restaurant had a beautiful outdoor ambiance and decor',
+    rating: 5,
+    likes: 1, 
+    user_id: 1,
+    restaurant_id:1
+)
+
+Review.create(
+    content: 'This restaurant made me feel safe while dining out. Cool patio, good service',
+    rating: 4,
+    likes: 1,
+    user_id: 1,
+    restaurant_id: 5
+)
+
+Review.create(
+    content: 'Pesonal igloos great, felt very cozy',
+    rating: 4,
+    likes: 1,
+    user_id: 1,
+    restaurant_id: 8
+)
+
+Review.create(
+    content: 'Beautiful rooftop',
+    rating: 4,
+    likes: 1,
+    user_id: 2,
+    restaurant_id: 10
+)
+
+Review.create(
+    content: 'Really loved the personal igloos, although they were not 6ft apart',
+    rating: 3,
+    likes: 1,
+    user_id: 2,
+    restaurant_id: 7
+)
+
+####### BOOKMARK DATA ######
+
+Bookmark.create(
+    user_id: 1,
+    restaurant_id: 1
+)
+
+Bookmark.create(
+    user_id: 1,
+    restaurant_id: 3
+)
+
+Bookmark.create(
+    user_id: 2,
+    restaurant_id: 2
+)
+
+Bookmark.create(
+    user_id: 2,
+    restaurant_id: 10
+)
+
 
 puts "data seeded!"
