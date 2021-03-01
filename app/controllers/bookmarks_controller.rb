@@ -10,6 +10,12 @@ class BookmarksController < ApplicationController
         render json: @bookmark
     end 
 
+    def destroy
+        @bookmark = Bookmark.find(params[:id])
+        @bookmark.destroy
+        render json: @bookmark
+    end
+
     private
     def bookmark_params
         params.require(:bookmark).permit(:user_id, :restaurant_id)

@@ -3,9 +3,18 @@ class UsersController < ApplicationController
     before_action :authenticate, only: [:show, :update]
 
     def login
-        user = User.first
-        # User.find_by(username: params[:username])
-        render json: user
+        # real auth
+        user = User.find_by(username: params[:username])
+        if user && user.authenticate(params[:password])
+            token = JWT.encode({user_id: user.id}, 'mysecret', 'HS256')
+            render json: {user: UserSerializer.new(user), token: token}
+        else 
+            render json: { errors: ['Invalid username or password']}, status: :unauthorized
+        end 
+    # fake auth
+        # user = User.first
+        # render json: user
+        
     end
 
     def index
@@ -29,13 +38,22 @@ class UsersController < ApplicationController
     end
 
     def signup
-        user = User.last
-        render json: user
+    # real auth
+        user = User.create(user_params)
+        if user.valid?
+            token = JWT.encode({user_id: user.id}, 'mysecret', 'HS256')
+            render json: { user: UserSerializer.new(user), token: token}
+        else 
+            render json: { errors: user.errors.full_messages}, status: :unauthorized
+        end 
+    # fake auth
+        # user = User.last
+        # render json: user
     end
 
     private
 
     def user_params
-        params.permit(:username, :password, :name, :image, :bio)
+        params.permit(:username, :password, :name, :image)
     end
 end
