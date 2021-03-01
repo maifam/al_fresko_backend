@@ -264,66 +264,66 @@ Restaurant.create(
 
 #----- 15 
 
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
+Restaurant.create(
+    name: 'Yakiniku Futago',
+    cuisine: 'Japanese - Barbeque, Steakhouse',
+    address: '37 W 17th St New York, NY 10011',
+    website: 'futago25usa.com',
+    phone: '212-620-0225',
+    menu: 'https://www.futago25usa.com/wp-content/uploads/2021/02/Dinner.pdf',
+    hours: 'Mon-Sun 4pm-10pm',
+    setup: 'Heated, Tent',
+    covid: 'Temperature checks, hand sanitizer provided, limited capacity',
+    money: 4,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/rHrlLBgFrAXibGCe2J7nhA/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/MGBXnEBABvBZGAVXxr6VCA/o.jpg',
+    fd_img: 'https://images.otstatic.com/prod1/41698518/1/large.jpg'
+)
+Restaurant.create(
+    name: 'Top Thai Greenwich', 
+    cuisine: 'Thai, Halal',
+    address: '235 Sullivan St New York, NY 10012',
+    website: 'topthainyc.com',
+    phone: '646-726-4418',
+    menu: 'https://www.topthainyc.com/menu',
+    hours: 'Mon-Sun 11am-3:30pm, 4:30pm-9:45pm',
+    setup: 'Heated, Patio',
+    covid: 'Temperature checks, contactless payments, tables socially distanced',
+    money: 2,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/hY0p8XGGR3jZXRG7C-SPVw/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/whknIIcUzqzd5oM92Iipvg/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/17QYXTeyG9qGAqZlh8UUww/o.jpg'
+)
+Restaurant.create(
+    name: 'Luna Asian Bistro & Rooftop Lounge',
+    cuisine: 'Japanese, Sushi Bar, Asian',
+    address: '32-72 Steinway St Astoria, NY 11103',
+    website: 'lunasushirooftop.com',
+    phone: '917-832-7911',
+    menu: 'https://lunasushirooftop.com/index.html',
+    hours: 'Mon-Fri 3:30pm-10pm, Sat-Sun 12:30pm-10pm',
+    setup: 'Personal igloo, Rooftop, Heated',
+    covid: 'Tables socially distanced, Temperature checks',
+    money: 2,
+    od_img1:'https://s3-media0.fl.yelpcdn.com/bphoto/TrXuGUMuTOgEOOg5r4xH7g/o.jpg',
+    od_img2:'https://s3-media0.fl.yelpcdn.com/bphoto/TrXuGUMuTOgEOOg5r4xH7g/o.jpg',
+    fd_img:'https://s3-media0.fl.yelpcdn.com/bphoto/P-LbExlc4EvPtkYzaR_acw/o.jpg'
+)
+Restaurant.create(
+    name: 'Ruta Oaxaca',
+    cuisine: 'Mexican',
+    address: '35-03 Broadway Astoria, NY 11106',
+    website: 'https://rutaoaxacamexicancuisine.business.site/',
+    phone: '929-349-1228',
+    menu: 'https://www.toasttab.com/ruta-oaxaca-mexican-cuisine-35-03-broadway/v3/',
+    hours: 'Mon-Sun 12pm-10pm',
+    setup: 'Heated, Tent',
+    covid: 'Temperature checks, disposable menu, contactless payments',
+    money: 2,
+    od_img1:'https://s3-media0.fl.yelpcdn.com/bphoto/KA8R0LWgbHkIYCgBPWiYIg/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/FABydZhaEn2vDVi0KYGVzQ/o.jpg',
+    fd_img:'https://s3-media0.fl.yelpcdn.com/bphoto/2QYXuEo4_R060wA6DVXq-A/o.jpg'
+)
 # Restaurant.create(
 #     name:
 #     cuisine:
@@ -417,6 +417,9 @@ Restaurant.create(
 #     od_img2:
 #     fd_img:
 # )
+
+# ----- 25
+
 # Restaurant.create(
 #     name:
 #     cuisine:
@@ -494,6 +497,7 @@ Restaurant.create(
 #     od_img2:
 #     fd_img:
 # )
+# ----- 30
 
 ###### REVIEW DATA ######
 
