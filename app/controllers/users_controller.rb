@@ -26,12 +26,14 @@ class UsersController < ApplicationController
         render json: @current_user
     end
 
+
     def update
        
         @current_user.update(bio: params[:bio], image: params[:image])
         render json: @current_user
     end
 
+    
     def create
         user = User.create(user_params)
         render json: user
