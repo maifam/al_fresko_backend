@@ -37,7 +37,9 @@ Restaurant.create(
     money: '4',
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/ONMCFbHy9uysX4k4r98tow/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/VdJtXZGSWdvAvH5WH2SrNg/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/ImfSL9SCuECEKX6Cn79LpQ/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/ImfSL9SCuECEKX6Cn79LpQ/o.jpg',
+    latitude: 40.758400,
+    longitude: -73.983290,
 )
 
 Restaurant.create(
@@ -53,7 +55,9 @@ Restaurant.create(
     money: '2',
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/XuJJUUxxaARaixySHSOSwA/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/-qOgmLpSC660z-GViJfaRA/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/G-V4426L1pM1bOwm9rEsAQ/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/G-V4426L1pM1bOwm9rEsAQ/o.jpg', 
+    latitude: 40.709660,
+    longitude: -74.009260
 )
 
 Restaurant.create(
@@ -69,7 +73,9 @@ Restaurant.create(
     money: '3',
     od_img1: 'https://images.otstatic.com/prod/24801369/1/large.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/41MfZsMGDNJnr5Sx7UAciA/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/L4MGrlybuhFO4TYGaIAvHg/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/L4MGrlybuhFO4TYGaIAvHg/o.jpg', 
+    latitude: 40.735400, 
+    longitude: -74.003130,
 )
 
 Restaurant.create(
@@ -85,7 +91,9 @@ Restaurant.create(
     money: '3',
     od_img1: 'https://images.otstatic.com/prod1/34186376/1/large.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/Jqy4Z4bOcfP4-aN_AgnbEw/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/yroHup5f3YQXmxi6k7awZw/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/yroHup5f3YQXmxi6k7awZw/o.jpg', 
+    latitude: 40.761840, 
+    longitude: -73.976440,
 )
 Restaurant.create(
     name: 'The Little Owl',
@@ -100,7 +108,9 @@ Restaurant.create(
     money: 3,
     od_img1: 'https://images.otstatic.com/prod1/40261805/2/large.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/lQK_hAFM6PGKZD1N4-74ow/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/3Zi9yt29d8m_MFWFH37kkw/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/3Zi9yt29d8m_MFWFH37kkw/o.jpg', 
+    latitude: 40.732281, 
+    longitude: -74.005203,
 )
 #---- 5
 
@@ -117,7 +127,9 @@ Restaurant.create(
     money: '2',
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/MAHyQ1WCTMuqRBdiVv3I5g/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/75pv3p2DNFfmq9kQL2LajA/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/_RwdvA-hI5_aeO0hkkNW3g/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/_RwdvA-hI5_aeO0hkkNW3g/o.jpg', 
+    latitude: 40.739020, 
+    longitude: -73.990680,
 )
 
 Restaurant.create(
@@ -134,6 +146,8 @@ Restaurant.create(
     od_img1: 'http://www.cafedusoleilny.com/wp-content/uploads/2020/09/BUBBLES2.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/sciHRBABfRSVl_xh734UKQ/o.jpg',
     fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/zt07t1PYsOqOPBxsQCfk2w/o.jpg',
+    latitude: 40.800050, 
+    longitude: -73.968400,
 )
 
 Restaurant.create(
@@ -149,7 +163,9 @@ Restaurant.create(
     money: 3,
     od_img1: 'https://images.otstatic.com/prod1/34927736/4/large.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/Z3cRV7CFcbYA_nyViOytpQ/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/CXBGZTWuUWv6b4w2OMRI4A/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/CXBGZTWuUWv6b4w2OMRI4A/o.jpg', 
+    latitude: 40.775920, 
+    longitude: -74.011940,
 )
 
 Restaurant.create(
@@ -165,7 +181,9 @@ Restaurant.create(
     money: 2,
     od_img1: 'https://images.otstatic.com/prod1/31143887/1/large.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/1pSRVg9pgEFtXQAwO1AF-g/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/zfMdQW5StR08SPg96JWy8g/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/zfMdQW5StR08SPg96JWy8g/o.jpg', 
+    latitude: 40.733870, 
+    longitude: -73.999840,
 )
 
 Restaurant.create(
@@ -181,7 +199,9 @@ Restaurant.create(
     money: '2',
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/tBOVAXx3lNKMf4U5oz5IHQ/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/tFLFQQtBzynTUcwWICfHpA/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/Yz4RuPunTxKnaoQvyR7fCg/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/Yz4RuPunTxKnaoQvyR7fCg/o.jpg', 
+    latitude: 40.758362, 
+    longitude: -73.983292,
 )
 #----- 10
 
@@ -198,7 +218,9 @@ Restaurant.create(
     money: '2',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/u9iiMHgOZYsG31t5LGQ-gg/o.jpg',
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/gsznoTuMP5Zh_jqALpEjIw/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/vLG3ykOOz2M6qWhcQk73RQ/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/vLG3ykOOz2M6qWhcQk73RQ/o.jpg', 
+    latitude: 40.654200, 
+    longitude: -73.927910,
 )
 Restaurant.create(
     name: 'Kyma',
@@ -214,6 +236,8 @@ Restaurant.create(
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/Z9bJjPTLd2q4zOPyn2Y0cQ/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/4M8roEafV0c_5YBBdNTk6A/o.jpg',
     fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/6k00UU0pf9l_1YRGOJxN4A/o.jpg',
+    latitude: 40.739160, 
+    longitude: -73.992810,
 )
 Restaurant.create(
     name: 'Sushi Nonaka',
@@ -228,12 +252,14 @@ Restaurant.create(
     money:  '4',
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/UGRfK04xxPMxp9tFNxdseg/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/q9KjCOfNf_EqeE8Rz5867A/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/lmQHuRgo2qvXgKjI3g8NrQ/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/lmQHuRgo2qvXgKjI3g8NrQ/o.jpg', 
+    latitude: 40.783660, 
+    longitude: -73.978350,
 )
 Restaurant.create(
     name:  'The Liberty NYC',
     cuisine: 'American',
-    address: 't29 W 35th St New York, NY 10001',
+    address: '29 W 35th St New York, NY 10001',
     website: 'thelibertynyc.com',
     phone: '212-967-4000',
     menu: 'https://secureservercdn.net/104.238.69.231/q2z.e03.myftpupload.com/wp-content/uploads/2021/01/Jan-Menu-2021-1.pdf',
@@ -243,7 +269,9 @@ Restaurant.create(
     money:  '2',
     od_img1: 'https://images.otstatic.com/prod1/33884869/3/large.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/nBFWzc7onV0GHHHxpIRlng/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/jSFdSe4HI5CXT0PeCwqADw/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/jSFdSe4HI5CXT0PeCwqADw/o.jpg', 
+    latitude: 40.749940, 
+    longitude: -73.985480,
 )
 
 Restaurant.create(
@@ -259,7 +287,9 @@ Restaurant.create(
     money:  '3',
     od_img1: 'https://images.otstatic.com/prod1/32532484/3/large.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/H8Yyvjv7xy2eqtVUgji17A/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/9R-mNkIBZ7eKv-RUB9Likg/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/9R-mNkIBZ7eKv-RUB9Likg/o.jpg', 
+    latitude: 40.745350, 
+    longitude: -73.986397,
 )
 
 #----- 15 
@@ -277,7 +307,9 @@ Restaurant.create(
     money: 4,
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/rHrlLBgFrAXibGCe2J7nhA/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/MGBXnEBABvBZGAVXxr6VCA/o.jpg',
-    fd_img: 'https://images.otstatic.com/prod1/41698518/1/large.jpg'
+    fd_img: 'https://images.otstatic.com/prod1/41698518/1/large.jpg', 
+    latitude: 40.738900, 
+    longitude: -73.994030,
 )
 Restaurant.create(
     name: 'Top Thai Greenwich', 
@@ -292,7 +324,9 @@ Restaurant.create(
     money: 2,
     od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/hY0p8XGGR3jZXRG7C-SPVw/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/whknIIcUzqzd5oM92Iipvg/o.jpg',
-    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/17QYXTeyG9qGAqZlh8UUww/o.jpg'
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/17QYXTeyG9qGAqZlh8UUww/o.jpg', 
+    latitude: 40.729770, 
+    longitude: -73.999420,
 )
 Restaurant.create(
     name: 'Luna Asian Bistro & Rooftop Lounge',
@@ -307,7 +341,9 @@ Restaurant.create(
     money: 2,
     od_img1:'https://s3-media0.fl.yelpcdn.com/bphoto/TrXuGUMuTOgEOOg5r4xH7g/o.jpg',
     od_img2:'https://s3-media0.fl.yelpcdn.com/bphoto/TrXuGUMuTOgEOOg5r4xH7g/o.jpg',
-    fd_img:'https://s3-media0.fl.yelpcdn.com/bphoto/P-LbExlc4EvPtkYzaR_acw/o.jpg'
+    fd_img:'https://s3-media0.fl.yelpcdn.com/bphoto/P-LbExlc4EvPtkYzaR_acw/o.jpg', 
+    latitude: 40.757300, 
+    longitude: -73.920690,
 )
 Restaurant.create(
     name: 'Ruta Oaxaca',
@@ -322,23 +358,27 @@ Restaurant.create(
     money: 2,
     od_img1:'https://s3-media0.fl.yelpcdn.com/bphoto/KA8R0LWgbHkIYCgBPWiYIg/o.jpg',
     od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/FABydZhaEn2vDVi0KYGVzQ/o.jpg',
-    fd_img:'https://s3-media0.fl.yelpcdn.com/bphoto/2QYXuEo4_R060wA6DVXq-A/o.jpg'
+    fd_img:'https://s3-media0.fl.yelpcdn.com/bphoto/2QYXuEo4_R060wA6DVXq-A/o.jpg', 
+    latitude: 40.760580, 
+    longitude: -73.921830,
 )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
+Restaurant.create(
+    name: 'Trestle',
+    cuisine: 'American',
+    address: '34-02 Broadway Astoria, NY 11106',
+    website: 'https://www.trestleastoria.com/' ,
+    phone: '347- 808-0290',
+    menu: 'https://www.trestleastoria.com/dinner',
+    hours: 'Wed-Fri 4pm-11pm, Sat-Sun 10pm-11pm' ,
+    setup: 'Heated. No Tent. Awning. Sidewalk',
+    covid: 'Masks required, social distancing enforced',
+    money: 2,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/C6UxRM3RSA63rlzIXSFIWw/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/eKet2KurN-XvPttsnGCUxQ/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/AtcYb48xedB-LkS3qpu49A/o.jpg',
+    latitude: 40.760610,
+    longitude: -73.923010, 
+)
 
 #----- 20 
 
