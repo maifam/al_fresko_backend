@@ -55,7 +55,7 @@ class UsersController < ApplicationController
     end
 
     def update
-        @current_user.update(username: params[:username], password: params[:password])
+        @current_user.update(user_params)
             if params[:user_image] != "null"
                 if @current_user.user_image.attached?
                     @current_user.user_image.purge
