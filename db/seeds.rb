@@ -382,161 +382,181 @@ Restaurant.create(
 
 #----- 20 
 
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
+Restaurant.create(
+    name: "L'Wren",
+    cuisine: 'American, Tapas',
+    address: '4004 5th Ave Brooklyn, NY 11232',
+    website: 'https://www.lwrenbar.com/',
+    phone: '(917) 909-1894',
+    menu: 'https://www.lwrenbar.com/menu/full-menu',
+    hours: 'Tue-Sun 4pm-11pm',
+    setup: 'Heated, Tables outside on sidewalk',
+    covid: 'Temperature checks, contactless payments, limited capacity',
+    money: 2,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/Lftyzj4hnNlXZqgG1BqEDA/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/064RL4mbBWUQ6YYCKD6OrQ/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/acLUXElMkdO6CwDhATGtmw/o.jpg',
+    latitude: 40.650680,
+    longitude: -74.004860, 
+)
+Restaurant.create(
+    name: 'Pates Et Traditions',
+    cuisine: 'French',
+    address: '52 Havemeyer St Brooklyn, NY 11211',
+    website: 'https://menupages.com/pates-et-traditions/52-havemeyer-st-brooklyn',
+    phone: '(718) 302-1878',
+    menu: 'https://menupages.com/pates-et-traditions/52-havemeyer-st-brooklyn',
+    hours: 'Mon-Sun 12:30pm-10:30pm',
+    setup: 'Heated, limited capacity, tables 6ft apart'
+    covid: 'Masks required, contactless menu'
+    money: 2,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/iEGaQTXE3jZx4LAvQc5GrA/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/i9hq5Cj4OwyWCvCkKPHtdA/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/2b2lXfTdqhbYRt1mNKy9Cw/o.jpg',
+    latitude: 40.714950,
+    longitude: -73.954430
+)
+Restaurant.create(
+    name: 'La Cignogne',
+    cuisine: 'French, Wine Bars',
+    address: '215 Union St Brooklyn, NY 11231',
+    website: 'http://www.lacigognenyc.com/',
+    phone: '(718) 858-5641',
+    menu: 'http://www.lacigognenyc.com/menu',
+    hours: 'Mon-Fri 4pm-10pm, Sat-Sun 10am-11pm',
+    setup: 'Personal glass huts per party, Heated',
+    covid: 'Temperature checks, social distanced tables',
+    money: 2,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/Uzil53uYKsIZL45_1o67qw/o.jpg',
+    od_img2: 'https://www.yelp.com/biz_photos/la-cigogne-brooklyn?select=Czt2b_4gbWdoi8MrQPypBw',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/j07kVmlwBjskfR6uEehnkw/o.jpg',
+    latitude: 40.683510,
+    longitude: -73.999300
+)
+Restaurant.create(
+    name: 'LĒNA',
+    cuisine: 'French, Wine Bars',
+    address:'137 Eldridge St New York, NY 10002',
+    website: 'https://www.lena-nyc.com/',
+    phone: '(347) 935-1897',
+    menu: 'https://www.lena-nyc.com/menu8st',
+    hours: 'Mon-Fri 4:30pm-11pm, Sat-Sun 12pm-11pm',
+    setup: 'Personal igloos, Heated',
+    covid: 'Tables socially distanced, limited capacity, QR Scan Menu',
+    money: 2,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/cxDy8hj6LNH4F6DHAu9BsA/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/0590OaKGNEXpWBG0sPwdCw/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/cQgBt__qNZvcznfkQH_0VQ/o.jpg',
+    latitude: 40.719100,
+    longitude: -73.991600
+)
+Restaurant.create(
+    name: 'Aurora',
+    cuisine: 'Italian',
+    address: '70 Grand St Brooklyn, NY 11249',
+    website: 'https://aurorabk.com/',
+    phone: '(718) 388-5100',
+    menu: 'https://aurorabk.com/images/BK-Menus/dinner.pdf',
+    hours: 'Mon-Sun 12pm-3:30pm, 6pm-11pm',
+    setup: 'Covered patio, Heated',
+    covid: 'Temperature checks, social distance tables, contactless payments',
+    money: 3,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/SluqOVlNPYwRrPdP6LEDsg/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/mDnrOrr-X7sr1NYvKxMXxA/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/pXXISlrV3zYmMIgx9GQ8NA/o.jpg',
+    latitude: 40.715640,
+    longitude: -73.964770
+)
 
 # ----- 25
 
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
+Restaurant.create(
+    name: 'Ammazzacaffe',
+    cuisine: 'Italian',
+    address: '702 Grand St Brooklyn, NY 11211',
+    website: 'https://ammazzacaffe.nyc/',
+    phone: '(929) 250-2875',
+    menu: 'https://ammazzacaffe.nyc/dinner',
+    hours: 'Mon 2pm-9pm, Wed-Sun 2pm-10pm, Closed Tuesday',
+    setup: 'Covered patio, Heated',
+    covid: 'Disposable menu, Temperature checks, Socially distanced tables',
+    money: 3,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/yo1NVPxBh6wbyvJR9MUrig/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/mlemlIkYx95riTYIbZjqBQ/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/uzFP0IKoJ2qA-njgamPAbA/o.jpg',
+    latitude:  40.711403,
+    longitude: -73.944615
+)
+Restaurant.create(
+    name: "Cecconi's Dumbo",
+    cuisine: 'Italian',
+    address: '55 Water St Brooklyn, NY 11201',
+    website: 'https://www.cecconisdumbo.com/',
+    phone: '(718) 650-3900',
+    menu: 'https://www.cecconisdumbo.com/system/files/052019/5cdb34cfebeeb57780000000/original/All_Day_Menu.pdf?1613538563',
+    hours: 'Mon-Thu 5pm-11pm, Fri-Sun 12pm-11pm',
+    setup: 'Heated Patio',
+    covid: 'Temperature checks, limited capacity',
+    money: 3,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/Cq5BFheAxgBSvK_-jTtIOQ/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/5JxA_9Hl2oLgkSiDdBoiiQ/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/-A-CgwK_jhaqr767KnUcSg/o.jpg',
+    latitude: 40.703630,
+    longitude: -73.991690
+)
+Restaurant.create(
+    name: 'Scarpetta',
+    cuisine: 'Italian',
+    address: '88 Madison Ave New York, NY 10016',
+    website: 'https://www.scarpettarestaurants.com/location/scarpetta-new-york-city/',
+    phone: '(212) 691-0555',
+    menu: 'scarpettarestaurants.com/location/scarpetta-new-york-city/#febdinner',
+    hours: 'Tue-Sat 5pm-9pm',
+    setup: 'Heated patio',
+    covid: 'Temperature checks, contactless payments, QR Scan Code',
+    money: 4,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/6_XrJNUoYuH4kIFJzGMKDA/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/iKEyyot7w9PIDkJi1RzCCA/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/wIQm1bi38NkOAq740Yy8XQ/o.jpg',
+    latitude: 40.744389,
+    longitude: -73.985657
+)
 
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
+Restaurant.create(
+    name: 'Khe-Yo',
+    cuisine: 'Asian, Laotian',
+    address: '157 Duane St New York, NY 10013',
+    website: 'https://www.kheyo.com/',
+    phone: '(212) 587-1089',
+    menu: 'https://www.kheyo.com/menus/#dinner-menu',
+    hours: 'Mon-Sun 11am-9pm',
+    setup: 'Heated patio',
+    covid: 'Temperature checks, disposable menu, contactless payments',
+    money: 2,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/fIXNFC23rkfSSCwTuYNEog/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/GpuV2PUDD1kbN3jo7uBJyg/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/PI__kcJ-2Cd8jvWyr6IvMw/o.jpg',
+    latitude: 40.716900,
+    longitude: -74.008580
+)
 
-# Restaurant.create(
-#     name:
-#     cuisine:
-#     address:
-#     website:
-#     phone:
-#     menu:
-#     hours:
-#     setup:
-#     covid:
-#     money: 
-#     od_img1:
-#     od_img2:
-#     fd_img:
-# )
+Restaurant.create(
+    name: 'Barolo East',
+    cuisine: 'Italian',
+    address: '214 E 49th St New York, NY 10017',
+    website: 'https://www.baroloeast.com/',
+    phone: '(212) 754-5710',
+    menu: 'https://3dc2199f-2ce5-4aa5-b99d-ddd07f48f539.filesusr.com/ugd/d0aeee_1da8185fda984668aecb4489843a38de.pdf',
+    hours: 'Mon-Fri 11:30am-11pm, Sat 4pm-11pm, Closed Sun',
+    setup: 'Heated Patio',
+    covid: 'Contactless Payments, QR Menu Scan Code, Tables socially distanced',
+    money: 4,
+    od_img1: 'https://s3-media0.fl.yelpcdn.com/bphoto/OXGKJHa-z0vcLryv-iBOKQ/o.jpg',
+    od_img2: 'https://s3-media0.fl.yelpcdn.com/bphoto/wgaVzDSGMfJQ-94DsK2s_w/o.jpg',
+    fd_img: 'https://s3-media0.fl.yelpcdn.com/bphoto/uLdMv_BEWVG5qWOLWX5TpA/o.jpg',
+    latitude: 40.754710,
+    longitude: -73.970790
+)
 # ----- 30
 
 ###### REVIEW DATA ######
