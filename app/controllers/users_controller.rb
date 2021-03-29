@@ -11,7 +11,7 @@ class UsersController < ApplicationController
         else 
             render json: { errors: ['Invalid username or password']}, status: :unauthorized
         end 
-    # fake auth
+        # fake auth
         # user = User.first
         # render json: user
         
@@ -25,12 +25,6 @@ class UsersController < ApplicationController
     def show
         render json: @current_user
     end
-
-    # def update
-       
-    #     @current_user.update(bio: params[:bio], image: params[:image])
-    #     render json: @current_user
-    # end
     
     def create
         user = User.create(user_params)

@@ -566,7 +566,7 @@ Review.create(
     rating: 5,
     likes: 1, 
     user_id: 1,
-    restaurant_id:1
+    restaurant_id:20
 )
 
 Review.create(
@@ -574,7 +574,7 @@ Review.create(
     rating: 4,
     likes: 1,
     user_id: 1,
-    restaurant_id: 5
+    restaurant_id: 15
 )
 
 Review.create(
@@ -622,6 +622,5 @@ Bookmark.create(
     user_id: 2,
     restaurant_id: 10
 )
-
 
 puts "data seeded!"

@@ -11,7 +11,7 @@ class UserSerializer < ActiveModel::Serializer
   end
   
   # def image_url
-  #       rails_blob_path(object.user_image) if object.user_image.attached?
-  #   end
+  #   rails_blob_path(object.user_image) if object.user_image.attached?
+  # end
 
 end
